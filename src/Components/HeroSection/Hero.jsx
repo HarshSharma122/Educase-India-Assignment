@@ -3,8 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 
 function Hero() {
   return (
-    <div className=" flex items-center justify-center ">
-       <div className="bg-[#F7F8F9] mt-10 w-[25%] h-[80vh]">
+    <div className="min-h-screen flex items-center justify-center">
+       <div className="bg-[#F7F8F9] mt-10 sm:w-[25%] h-[80vh]">
         <div className="pr-3 pl-3 mt-90">
         <section className='mb-6'>
             <h1 className='text-[#1D2226] font-bold text-[26px]'>Welcome to PopX</h1>
